@@ -23,7 +23,7 @@ public class AddressRegexParser {
 
         List<String> inputNames = Arrays.asList("Mgr. Jozef      Mrkvička", "Mgr. Ignac Pukalovic PhDr.", "Lojzo Odborny RnDr.", "Pan Puklicka", "Janko Hrasko Ing.",
                 "PhDr. Ing. Dr.h.c. PharmDr. Mgr. Pista Lopatovic PhDr.");
-        List<String> addresses = Arrays.asList("Ulica Svornosti 39, Bratislava", "Bronzová 814/2 D, Bratislava ", "08001, Prešov, Poštová 38",
+        List<String> addresses = Arrays.asList("Ulica Svornosti 39, Bratislava", "Lopatova 32, 821 01 Bratislava", "08001, Prešov, Poštová 38",
                 "Spišská Nová Ves 233");
         inputNames.forEach(c -> {
 
